@@ -11,8 +11,8 @@ int.TryParse(Console.ReadLine()!, out N);
 int M = N;
 while(0!= N)          // cчетчик кол-во десятков 
     {
-        N= N/10;
-        b = b + 1;
+    N= N/10;
+    b = b + 1;
     }
 if (b == 3 )            
     {
